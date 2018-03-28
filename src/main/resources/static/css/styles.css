@@ -1,0 +1,22 @@
+div.container{
+  width:1000px;
+}
+
+.navbar{
+  position:relative;
+  min-height:50px;
+  margin-bottom:20px;
+  border:1px solid transparent;
+  width:1000px;
+}
+
+.carousel{
+  position:relative;
+  width:inherit;
+}
+
+.text-center{
+  text-align:center;
+  color:blue;
+}
+
