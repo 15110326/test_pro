@@ -4,8 +4,9 @@
 <body>
 	<header th:replace="layout :: header"></header>
 	<div class="container">
-		<button class="btn btn-success navbar-btn navbar-right" type="button"
-			data-toggle="modal" data-target=".modal">SIGN IN</button>
+		<a th:href="@{/login}"><button
+				class="btn btn-success navbar-btn navbar-right" type="button">SIGN
+				IN</button></a>
 	</div>
 	<div class="container">
 		<div>
@@ -135,29 +136,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="modal fade">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h2>LOGIN</h2>
-				</div>
-				<div class="modal-body">
-					<div class="form-group">
-						<label>Username</label> <input type="email" name="email"
-							class="form-control" required=""></input>
-					</div>
-					<div class="form-group">
-						<label>Password</label> <input type="password" name="password"
-							class="form-control" required=""></input>
-					</div>
-				</div>
-				<div class="modal-footer">
-					<input type="submit" name="submit" value="Submit"
-						class="btn btn-sm btn-success"></input>
-				</div>
-			</div>
-		</div>
-	</div>
+	
 	<div class="container">
 		<h3 class="text-primary">
 			<strong>SPONSORED BY</strong>
