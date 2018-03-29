@@ -1,0 +1,17 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="head">
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<title>Hello CKEditor</title>
+<script src="ckeditor/ckeditor.js"></script>
+<script src="ckfinder/ckfinder.js"></script>
+</head>
+<body>
+	<textarea rows="20" cols="20" id="editor"></textarea>
+	<script>
+		CKEDITOR.replace('editor');
+	</script>
+</body>
+</html>
